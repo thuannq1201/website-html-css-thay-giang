@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main{ 
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+}
+
+.header img{
+    width: 100%;
+    height: 150px;
+}
+
+.box-1, .box-2, .box-3, .box-4{
+    width: 25%;
+    height: auto;
+    text-align: center;
+    line-height: 150px;
+}
+
+.box-1 .border-radius-1{
+    height: 150px;
+    border-radius: 10px;
+    background-color: red;
+}
+
+.box-1 .border-radius-2{
+    height: 300px;
+    border-radius: 50%;
+    background-color: yellow;
+}
+
+.box-1 .box-shadow{
+    height: 150px;
+    box-shadow: 10px 10px 10px green;
+    background-color: blue;
+}
+
+.box-2 .line-gradient{
+    height: 150px;
+    background: linear-gradient(to right,red, yellow, green, blue, indigo, violet);
+}
+
+.box-2 .radial-gradient-1{
+    margin: 40px 0;
+    height: 200px;
+    background: radial-gradient(red,green,yellow,indigo);
+}
+
+.box-2 .radial-gradient-2{
+    margin-top: 60px;
+    height: 150px;
+    background: radial-gradient(black,green,yellow,indigo);
+}
+
+.box-3 .anh-bo-goc{
+    height: 150px;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.box-3 .anh-bo-goc img{
+    width: 100%;
+    border-radius: 20px;
+    transition: all ease-in-out 0.3s;
+}
+
+.box-3 .anh-bo-goc img:hover{
+    transform: skew(20deg, 20deg);
+}
+
+.box-3 .anh-bo-tron{
+    height: 300px;
+    border-radius: 50%;
+}
+
+.box-3 .anh-bo-tron img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+.box-3 .anh-scale{
+    height: 150px;
+
+}
+
+.box-3 .anh-scale img{
+    width: 100%;
+    transition: all ease-in-out 0.3s;
+}
+
+.box-3 .anh-scale img:hover{
+    transform: scale(1.5);
+}
+
+/*  */
+
+.box-4 .anh-bo-goc{
+    height: 150px;
+    border-radius: 20px;
+}
+
+.box-4 .anh-bo-goc img{
+    width: 100%;
+    border-radius: 20px;
+    transition-duration: 2s;
+}
+
+.box-4 .anh-bo-goc img:hover{
+    transform: rotate(360deg);
+}
+
+.box-4 .anh-bo-tron{
+    height: 300px;
+    overflow: hidden;
+}
+
+.box-4 .anh-bo-tron img{
+    width: 100%;
+    height: 100%;
+    transition:all ease-in-out 0.3s;
+}
+
+.box-4 .anh-bo-tron img:hover{
+    transform: scale(2);
+}
+
+.box-4 .anh-scale{
+    height: 150px;
+    text-align: left;
+
+}
+
+.box-4 .anh-scale img{
+    width: 50%;
+    height: 100%;
+    transition: 1s;
+}
+
+.box-4 .anh-scale img:hover{
+    transform: translate(150px);
+}
+
+.animation{
+    width: 100px;
+    height: 100px;
+    background: red;
+    animation:  myAnimation 5s ease-in-out infinite;
+}
