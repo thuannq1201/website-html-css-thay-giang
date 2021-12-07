@@ -146,9 +146,21 @@
     transform: translate(150px);
 }
 
-.animation{
+.chuyendong{
     width: 100px;
     height: 100px;
-    background: red;
-    animation:  myAnimation 5s ease-in-out infinite;
+    clear: both;
+    background-color: red;
+    position: relative;
+    animation: myAnimation 5s ease-out infinite;
+}
+
+@keyframes myAnimation {
+    0% {
+        left: 20px;
+    }
+    
+    100% {
+        left: 90vw;
+    }
 }
