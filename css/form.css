@@ -1,0 +1,130 @@
+
+a{
+    text-decoration: none;
+    color: blue;
+}
+
+ul{
+    list-style: none;
+}
+
+
+
+input,
+label,
+select{
+    border-radius: 5px;
+    border: 1px solid #888;
+    outline: none;
+}
+
+input::placeholder{
+    color: #888;
+}
+
+/*  
+.container{
+    width: 100vw;
+    display: block;
+    height: 100vh;
+} */
+
+.content{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form{
+    width: 400px;
+    height: 500px;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+form small{
+    padding: 5px 0;
+    color: #444;
+}
+
+.name{
+    display: flex;
+    justify-content: space-between;
+    margin: 15px 0 10px;
+}
+
+.name input{
+    width: 48.5%;
+    padding: 10px;
+}
+
+.phone{
+    padding: 10px;
+}
+
+.password{
+    margin: 10px 0 15px;
+    padding: 10px;
+}
+
+span{
+    font-size: 13px;
+    color: #888;
+}
+
+.date{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+.date select{
+    width: 32%;
+    padding: 10px;
+}
+
+.sex{
+    width: 100%;
+    display: flex;
+    margin-bottom: 15px;
+    justify-content: space-between;
+}
+
+.sex label{
+    padding: 10px;
+    width: 32%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.sex label input{
+    font-size: 1px;
+}
+
+p{
+    font-size: 12px;
+    text-align: justify;
+}
+
+.submit{
+    height: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.submit input{
+    /* margin-top: 30px; */
+    padding: 10px;
+    width: 50%; 
+    background-color: green;
+    color: #fff;
+    font-size: 15px;
+    font-weight: bold;
+}
